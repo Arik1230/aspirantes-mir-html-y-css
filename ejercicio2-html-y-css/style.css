@@ -1,3 +1,61 @@
-h1{
-    color: red;
+.box {
+    box-shadow: 7px 7px 15px #592A08;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.22735031512605042) 35%, rgba(0, 212, 255, 1) 100%);
+    ;
+    width: 300px;
+    border: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto
+}
+
+form {
+    color: white;
+    padding: 7px;
+
+}
+
+#Email {
+    padding: 7px;
+    width: 90%;
+}
+
+#Contraseña {
+    padding: 7px;
+    width: 90%;
+
+}
+
+#Genero {
+    padding: 7px;
+    width: 96%;
+}
+
+#Ingresar {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+    left: 200px;
+
+}
+
+
+h1 {
+    color: white;
+
+}
+
+@media (max-width: 409px) {
+    .box {
+    width: 100%;
+    }
+}
+
+@media (min-width: 500px) {
+    .box {
+        width: 300px;
+    }
 }

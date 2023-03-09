@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css"/>
-    <h1>Hola</h1>
+    <link rel="stylesheet" href="style.css" />
+
 </head>
+
 <body>
-    
+    <div class="box">
+
+        <h1><strong>Login</strong></h1>
+        <form>
+            <label for="Email">Email:</label><br><input type="text" id="Email">
+            <br>
+            <br>
+            <label for="Contraseña"> Contraseña: </label> <br><input type="password" id="Contraseña">
+            <br>
+            <br>
+            <label for="Genero"> Genero: </label> <br> <select name="Genero" id="Genero">
+                <option value="Masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+            <br>
+            <br>
+            <label for="Acepto los terminos"> </label> <input type="checkbox" id="Acepto los terminos"> Acepto los
+            terminos
+            <br>
+            <br>
+            <label for="Ingresar"> </label> <input type="submit" value="Ingresar" id="Ingresar">
+
+        </form>
+    </div>
+
 </body>
+
 </html>
